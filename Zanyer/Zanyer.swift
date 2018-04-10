@@ -31,11 +31,21 @@ public struct ZanyerModel {
     /// - interval: The song time
     /// - 歌曲时长
     
-    let songName: String
-    let singer: String
-    let songURL: String
-    let songImageURL: String
-    let interval: Int
+    public let songName: String
+    public let singer: String
+    public let songURL: String
+    public let songImageURL: String
+    public let interval: Int
+    
+    public init(songName: String,singer: String,songURL: String,songImageURL: String,interval: Int) {
+        
+        self.songName = songName
+        self.singer = singer
+        self.songURL = songURL
+        self.songImageURL = songImageURL
+        self.interval = interval
+        
+    }
     
 }
 
@@ -131,7 +141,7 @@ public class Zanyer: NSObject {
     ///  远程控制中心 - 锁屏状态下
     private var remoteCommandCenter: MPRemoteCommandCenter?
     
-    static let shared = Zanyer()
+    public static let shared = Zanyer()
     
     fileprivate override init() {
         super.init()
@@ -209,9 +219,9 @@ public class Zanyer: NSObject {
             
         }
         
-        zany.play()
+      
         self.zany = zany
-        
+        self.zany?.play()
         updateLockScreen(model)
         
     }
@@ -257,7 +267,7 @@ public class Zanyer: NSObject {
     /// Audio interruption
     ///
     /// 音频中断
-     @objc private func audioInterruptted(_ noti: NSNotification) {
+    @objc private func audioInterruptted(_ noti: NSNotification) {
         
         if let InterrupttedDict = noti.userInfo,
             let interruptionTypeRawValue = InterrupttedDict[AVAudioSessionInterruptionTypeKey] as? UInt,
@@ -403,5 +413,5 @@ public class Zanyer: NSObject {
         }
     }
     
-
+    
 }

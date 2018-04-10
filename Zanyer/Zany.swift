@@ -50,7 +50,7 @@ public enum State: Equatable, CustomStringConvertible {
     
 }
 
-open class Zany: Equatable {
+ class Zany: Equatable {
     
     
     
