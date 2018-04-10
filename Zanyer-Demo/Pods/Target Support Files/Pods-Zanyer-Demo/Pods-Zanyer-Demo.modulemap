@@ -1,0 +1,6 @@
+framework module Pods_Zanyer_Demo {
+  umbrella header "Pods-Zanyer-Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

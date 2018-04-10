@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42A4886D206A5FFC00F86C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4886C206A5FFC00F86C27 /* AppDelegate.swift */; };
+		42A4886F206A5FFC00F86C27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4886E206A5FFC00F86C27 /* ViewController.swift */; };
+		42A48872206A5FFC00F86C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A48870206A5FFC00F86C27 /* Main.storyboard */; };
+		42A48874206A5FFC00F86C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A48873206A5FFC00F86C27 /* Assets.xcassets */; };
+		42A48877206A5FFC00F86C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A48875206A5FFC00F86C27 /* LaunchScreen.storyboard */; };
+		B5504DD1989CAB524963C7F7 /* Pods_Zanyer_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654DA5B7122ED060D7606AEB /* Pods_Zanyer_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42A48869206A5FFC00F86C27 /* Zanyer-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zanyer-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A4886C206A5FFC00F86C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42A4886E206A5FFC00F86C27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42A48871206A5FFC00F86C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42A48873206A5FFC00F86C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42A48876206A5FFC00F86C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42A48878206A5FFC00F86C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654DA5B7122ED060D7606AEB /* Pods_Zanyer_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zanyer_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91233E925DEBEF1769203D89 /* Pods-Zanyer-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zanyer-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zanyer-Demo/Pods-Zanyer-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		B9EFD85ED6C4D4B2308C0547 /* Pods-Zanyer-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zanyer-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zanyer-Demo/Pods-Zanyer-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42A48866206A5FFC00F86C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5504DD1989CAB524963C7F7 /* Pods_Zanyer_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42A48860206A5FFC00F86C27 = {
+			isa = PBXGroup;
+			children = (
+				42A4886B206A5FFC00F86C27 /* Zanyer-Demo */,
+				42A4886A206A5FFC00F86C27 /* Products */,
+				BF8A00C1E474812CD731AC28 /* Pods */,
+				F57BFF25ADC4C3B2A2728B19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42A4886A206A5FFC00F86C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42A48869206A5FFC00F86C27 /* Zanyer-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42A4886B206A5FFC00F86C27 /* Zanyer-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				42A4886C206A5FFC00F86C27 /* AppDelegate.swift */,
+				42A4886E206A5FFC00F86C27 /* ViewController.swift */,
+				42A48870206A5FFC00F86C27 /* Main.storyboard */,
+				42A48873206A5FFC00F86C27 /* Assets.xcassets */,
+				42A48875206A5FFC00F86C27 /* LaunchScreen.storyboard */,
+				42A48878206A5FFC00F86C27 /* Info.plist */,
+			);
+			path = "Zanyer-Demo";
+			sourceTree = "<group>";
+		};
+		BF8A00C1E474812CD731AC28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9EFD85ED6C4D4B2308C0547 /* Pods-Zanyer-Demo.debug.xcconfig */,
+				91233E925DEBEF1769203D89 /* Pods-Zanyer-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F57BFF25ADC4C3B2A2728B19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654DA5B7122ED060D7606AEB /* Pods_Zanyer_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42A48868206A5FFC00F86C27 /* Zanyer-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A4887B206A5FFC00F86C27 /* Build configuration list for PBXNativeTarget "Zanyer-Demo" */;
+			buildPhases = (
+				F8C35414676A1FA90C601A69 /* [CP] Check Pods Manifest.lock */,
+				42A48865206A5FFC00F86C27 /* Sources */,
+				42A48866206A5FFC00F86C27 /* Frameworks */,
+				42A48867206A5FFC00F86C27 /* Resources */,
+				BD032B618F2DB266A5A56B06 /* [CP] Embed Pods Frameworks */,
+				786AE2FA8D09B5FAE561CE1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zanyer-Demo";
+			productName = "Zanyer-Demo";
+			productReference = 42A48869206A5FFC00F86C27 /* Zanyer-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42A48861206A5FFC00F86C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = YV;
+				TargetAttributes = {
+					42A48868206A5FFC00F86C27 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 42A48864206A5FFC00F86C27 /* Build configuration list for PBXProject "Zanyer-Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42A48860206A5FFC00F86C27;
+			productRefGroup = 42A4886A206A5FFC00F86C27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42A48868206A5FFC00F86C27 /* Zanyer-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42A48867206A5FFC00F86C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A48877206A5FFC00F86C27 /* LaunchScreen.storyboard in Resources */,
+				42A48874206A5FFC00F86C27 /* Assets.xcassets in Resources */,
+				42A48872206A5FFC00F86C27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		786AE2FA8D09B5FAE561CE1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zanyer-Demo/Pods-Zanyer-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD032B618F2DB266A5A56B06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Zanyer-Demo/Pods-Zanyer-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Zanyer/Zanyer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zanyer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zanyer-Demo/Pods-Zanyer-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C35414676A1FA90C601A69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zanyer-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42A48865206A5FFC00F86C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A4886F206A5FFC00F86C27 /* ViewController.swift in Sources */,
+				42A4886D206A5FFC00F86C27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42A48870206A5FFC00F86C27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A48871206A5FFC00F86C27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42A48875206A5FFC00F86C27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A48876206A5FFC00F86C27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42A48879206A5FFC00F86C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42A4887A206A5FFC00F86C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42A4887C206A5FFC00F86C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EFD85ED6C4D4B2308C0547 /* Pods-Zanyer-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2T4S76962;
+				INFOPLIST_FILE = "Zanyer-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YV.Zanyer-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42A4887D206A5FFC00F86C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91233E925DEBEF1769203D89 /* Pods-Zanyer-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2T4S76962;
+				INFOPLIST_FILE = "Zanyer-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YV.Zanyer-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42A48864206A5FFC00F86C27 /* Build configuration list for PBXProject "Zanyer-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A48879206A5FFC00F86C27 /* Debug */,
+				42A4887A206A5FFC00F86C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A4887B206A5FFC00F86C27 /* Build configuration list for PBXNativeTarget "Zanyer-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A4887C206A5FFC00F86C27 /* Debug */,
+				42A4887D206A5FFC00F86C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42A48861206A5FFC00F86C27 /* Project object */;
+}

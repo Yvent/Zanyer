@@ -1,0 +1,6 @@
+framework module Zanyer {
+  umbrella header "Zanyer-umbrella.h"
+
+  export *
+  module * { export * }
+}

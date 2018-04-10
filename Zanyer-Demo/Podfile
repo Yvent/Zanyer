@@ -1,0 +1,9 @@
+ use_frameworks!
+platform :ios, '9.0'
+
+target 'Zanyer-Demo' do
+
+ pod 'Zanyer' ,'~> 0.0.2'
+
+ pod 'SnapKit'
+end

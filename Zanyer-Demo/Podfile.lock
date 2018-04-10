@@ -1,0 +1,15 @@
+PODS:
+  - SnapKit (4.0.0)
+  - Zanyer (0.0.2)
+
+DEPENDENCIES:
+  - SnapKit
+  - Zanyer (~> 0.0.2)
+
+SPEC CHECKSUMS:
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Zanyer: 395ad3bdbbff462114af115201f880b2afa3508a
+
+PODFILE CHECKSUM: cefcdeb04192ad49128cf555852f937e5b8c4334
+
+COCOAPODS: 1.4.0
