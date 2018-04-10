@@ -7,7 +7,7 @@ A Singleton For AVPlayer
 * Play in the background.
    
 * Event handling under open screen.
-   * play progress
+   * [play progress](#PlayProgress)
    * loaded progress
    * state change
    * play
@@ -28,6 +28,21 @@ A Singleton For AVPlayer
    * "loadedTimeRanges"
    * "playbackBufferEmpty"
    * "playbackLikelyToKeepUp"
+
+
+
+
+<a name="PlayProgress"/>
+
+####  play progress
+
+```swift
+Zanyer.shared.playProgressBlock = {[weak self] (progress) in
+       guard let unwrapped = self  else{ return }
+       unwrapped.playerSlidder.setValue(progress, animated: true)
+}
+```
+
 
 ## Requirements
 
