@@ -3,7 +3,7 @@ platform :ios, '9.0'
 
 target 'Zanyer-Demo' do
 
- pod 'Zanyer' ,'~> 0.0.2'
+ pod 'Zanyer' ,'~> 0.0.3'
 
  pod 'SnapKit'
 end
