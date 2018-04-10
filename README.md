@@ -8,9 +8,9 @@ A Singleton For AVPlayer
    
 * Event handling under open screen.
    * [play progress](#PlayProgress)
-   * loaded progress
-   * state change
-   * play
+   * [loaded progress](#LoadedProgress)
+   * [state change](#StateChange)
+   * [play](#Play)
    * pause
    * continue
    
@@ -38,10 +38,47 @@ A Singleton For AVPlayer
 
 ```swift
 Zanyer.shared.playProgressBlock = {[weak self] (progress) in
-       guard let unwrapped = self  else{ return }
-       unwrapped.playerSlidder.setValue(progress, animated: true)
+   
 }
 ```
+<a name="LoadedProgress"/>
+
+####  loaded progress
+
+```swift
+Zanyer.shared.loadedProgressBlock = {[weak self] (progress) in
+         
+}
+```
+<a name="StateChange"/>
+
+####  state change
+
+```swift
+Zanyer.shared.onStateChanged = {[weak self] (newState) in
+             
+        switch newState {
+            
+         case .running:
+            
+         case .paused:
+              
+         case .finished:
+                
+         }
+}
+```
+
+<a name="Play"/>
+
+####  play
+
+```swift
+Zanyer.shared.playMusic(model: ZanyerModel)
+```
+
+
+
 
 
 ## Requirements
