@@ -1,6 +1,6 @@
 # Zanyer
 
-a singleton for AVPlayer
+A Singleton For AVPlayer
 
 
 ## Include
