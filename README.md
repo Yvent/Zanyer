@@ -159,7 +159,18 @@ switch type {
          self.continueMusic()
 }
 ```
+<a name="AudioRouteChange"/>
 
+####  audio route change
+Unplug the headset and pause music.Insert the headset and continue music.
+```swift
+switch type {
+     case .newDeviceAvailable: 
+         self.continueMusic()
+     case .oldDeviceUnavailable:
+         self.pauseMusic()
+}
+```
 
 
 
