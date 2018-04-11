@@ -20,7 +20,7 @@ A Singleton For AVPlayer
    * [command center next](#CommandCenterNext)
    * [command center prve](#CommandCenterPrve)
    
-* The handling of unexpected states.
+* [The handling of unexpected states.](#TheHandlingOfUnexpectedStates)
    * [audio interruption](#AudioInterruption)
    * [audio route change](#AudioRouteChange)
    
@@ -140,6 +140,25 @@ Zanyer.shared.commandCenterPrveBlock = { [weak self] in
 }
 ```
 
+<a name="TheHandlingOfUnexpectedStates"/>
+
+##  The handling of unexpected states
+
+<a name="AudioInterruption"/>
+
+####  audio interruption
+
+Interrupt start, pause music.Interrupt end, continue music.
+
+Zanyer has been implemented and can be modified if needed.
+```swift
+switch type {
+     case .began:  
+         self.pauseMusic()
+     case .ended: 
+         self.continueMusic()
+}
+```
 
 
 
