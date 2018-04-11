@@ -4,9 +4,10 @@ A Singleton For AVPlayer
 
 
 ## Include
-* Play in the background.
+* [Play in the background.](#PlayInTheBackground)
+
    
-* Event handling under open screen.
+* [Event handling under open screen.](#EventHandlingUnderOpenScreen)
    * [play progress](#PlayProgress)
    * [loaded progress](#LoadedProgress)
    * [state change](#StateChange)
@@ -28,9 +29,21 @@ A Singleton For AVPlayer
    * "loadedTimeRanges"
    * "playbackBufferEmpty"
    * "playbackLikelyToKeepUp"
+   
 
+<a name="PlayInTheBackground"/>
 
+##  Play in the background
 
+```swift
+Zanyer.shared.setSessionActive()
+   
+}
+```
+
+<a name="EventHandlingUnderOpenScreen"/>
+
+##  Event handling under open screen
 
 <a name="PlayProgress"/>
 
