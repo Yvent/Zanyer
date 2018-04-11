@@ -15,13 +15,13 @@ A Singleton For AVPlayer
    * [continue](#Continue)
    
 * UI and event handling under lock screen.
-   * command center play
-   * command center Next
-   * command center Prve
+   * [command center play](#CommandCenterPlay)
+   * [command center next](#CommandCenterNext)
+   * [command center prve](#CommandCenterPrve)
    
 * The handling of unexpected states.
-   * audio interruption
-   * audio route change
+   * [audio interruption](#AudioInterruption)
+   * [audio route change](#AudioRouteChange)
    
 * PlayerItem Observer
    * "status"
@@ -92,6 +92,37 @@ Zanyer.shared.pauseMusic()
 ```swift
 Zanyer.shared.continueMusic()
 ```
+
+<a name="CommandCenterPlay"/>
+
+####  command center play
+
+```swift
+Zanyer.shared.commandCenterPlayBlock = { [weak self] in
+
+}
+```
+
+<a name="CommandCenterNext"/>
+
+####  command center next
+
+```swift
+Zanyer.shared.commandCenterNextBlock = { [weak self] in
+
+}
+```
+
+<a name="CommandCenterPrve"/>
+
+####  command center prve
+
+```swift
+Zanyer.shared.commandCenterPrveBlock = { [weak self] in
+
+}
+```
+
 
 
 
