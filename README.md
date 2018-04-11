@@ -11,8 +11,8 @@ A Singleton For AVPlayer
    * [loaded progress](#LoadedProgress)
    * [state change](#StateChange)
    * [play](#Play)
-   * pause
-   * continue
+   * [pause](#Pause)
+   * [continue](#Continue)
    
 * UI and event handling under lock screen.
    * command center play
@@ -75,6 +75,22 @@ Zanyer.shared.onStateChanged = {[weak self] (newState) in
 
 ```swift
 Zanyer.shared.playMusic(model: ZanyerModel)
+```
+
+<a name="Pause"/>
+
+####  pause
+
+```swift
+Zanyer.shared.pauseMusic()
+```
+
+<a name="Continue"/>
+
+####  continue
+
+```swift
+Zanyer.shared.continueMusic()
 ```
 
 
