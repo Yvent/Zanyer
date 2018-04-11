@@ -15,7 +15,7 @@ A Singleton For AVPlayer
    * [pause](#Pause)
    * [continue](#Continue)
    
-* UI and event handling under lock screen.
+* [UI and event handling under lock screen.](#UIAndEventHandlingUnderLockScreen)
    * [command center play](#CommandCenterPlay)
    * [command center next](#CommandCenterNext)
    * [command center prve](#CommandCenterPrve)
@@ -105,6 +105,10 @@ Zanyer.shared.pauseMusic()
 ```swift
 Zanyer.shared.continueMusic()
 ```
+
+<a name="UIAndEventHandlingUnderLockScreen"/>
+
+##  UI and event handling under lock screen
 
 <a name="CommandCenterPlay"/>
 
